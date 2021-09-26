@@ -1,0 +1,589 @@
+@charset "utf-8";
+
+body{
+	background-color:#f3f3f3;
+}
+
+#box
+{
+	width:140px;
+	height:140px;
+	border:#999 1px solid;
+	float:left;
+	margin-left:40px;
+	margin-top:5px;
+}
+
+#thead
+{
+	width:100%;
+	height:40px;
+	background-color:#d6d6d6;
+	color:#2baae1;
+	font-weight:bold;
+	box-shadow: 0px 3px 2px grey;
+	float:left;
+	padding-top:10px;
+}
+
+.theadf
+{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	text-shadow: 3px #FF0000;
+}
+
+#tablebor
+{
+	border-bottom:1px solid #CCC;
+}
+
+#dashboard
+{
+	width:30px;
+	height:30px;
+	float:left;
+	margin-left:20px;
+}
+
+.date
+{
+	width:220px;
+	height:30px;
+	border:#999 1px solid;
+	margin-top:5px;
+}
+
+.singlebut
+{
+	width:150px;
+	height:30px;
+	margin-top:10px;
+}
+
+#left
+{
+	width:380px;
+	height:auto;
+}
+
+.fleft
+{
+	float:left;
+}
+
+#right
+{
+	width:100%;
+	height:auto;
+}
+
+#mndiv
+{
+	width:auto;
+	height:auto;
+}
+
+#image
+{
+	float:left;
+	margin-left:20px;
+	margin-top:10px;
+	color:#fe980f;
+	border:1px solid #fe980f;
+	padding:5px;
+}
+
+#sdiv
+
+{
+	width:400px;
+	height:auto;
+	
+}
+
+#mbdiv
+
+{
+	width:60%;
+	height:auto;	
+}
+#mdiv
+
+{
+	width:380px;
+	height:auto;
+	float:left;
+	margin-left:120px;
+	
+}
+
+
+#bdiv
+{
+	width:650px;
+	height:auto;
+}
+
+
+.textt
+{
+	width:100px;
+	height:30px;
+	border:1px solid #fe980f;
+}
+
+.transn
+{
+	width:200px;
+	height:30px;
+	border:1px solid #fe980f;
+}
+
+#topd
+{
+	width:auto;
+	height:auto;
+	float:left;
+}
+
+#statm
+{
+	width:275px;
+	height:auto;
+	float:left;
+	margin-left:20px;
+	font-size:14px;
+}
+
+#statma
+{
+	width:150px;
+	height:auto;
+	float:left;
+	margin-left:20px;
+	font-size:14px;
+}
+
+.sbut
+{
+	width:80px;
+	height:25px;
+}
+
+.sizeint
+{
+	width:200px;
+	height:30px;
+	border: #fe980f 1px solid;
+}
+
+#tablesize
+{
+	width:50%
+}
+
+.outtext
+{
+	height:25px;
+	width:200px;
+	border:#f15a29 1px solid;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+
+}
+.outtextaa
+{
+	height:25px;
+	width:250px;
+	border:#f15a29 1px solid;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+
+}
+
+
+.savebt
+{
+	margin-left:50px;
+	background-image:url(images/ok.png);
+}
+.flotleft
+{
+	float:left;
+	margin-left:50px;
+	color:#fe980f;
+	border:1px solid #fe980f;
+	padding:5px;
+}
+
+
+#neworder
+{
+	display:none;
+}
+
+#inprocess
+
+{
+	display:none;
+}
+
+#completed
+
+{
+	display:none;
+}
+
+#delivery
+
+{
+	display:none;
+}
+
+.intextbl
+{
+	width:100%;
+	height:35px;
+	border: #36F 1px solid;
+		font-weight:bold;
+	text-align:center;
+	font-size:18px;
+	color:#f15a29;
+}
+
+.intext
+{
+	width:100%;
+	height:25px;
+	border:#ff7c7c 1px solid;
+	font-weight:bolder;
+	text-align:center;
+	font-size:18px;
+	color:#06464d;
+}
+
+.intextaa
+{
+	width:100%;
+	height:25px;
+	border:#333 1px solid;
+	font-weight:bolder;
+	text-align:center;
+	font-size:18px;
+	color:#36F;
+}
+
+
+.nmclick
+{
+	border:#f15a29 1px solid;
+	padding:5px;
+	text-align:center;
+	color:#ffffff;
+	text-decoration:none;
+	float:right;
+	margin-right:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-top:15px;
+	
+  background: -webkit-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: -o-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: -moz-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: linear-gradient(#4cb0f6, #428fdc, #4cb0f6);
+}
+
+.nmclickaa
+{
+	border:#f15a29 1px solid;
+	padding:5px;
+	text-align:center;
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-top:15px;
+	
+  background: -webkit-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: -o-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: -moz-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: linear-gradient(#4cb0f6, #428fdc, #4cb0f6);
+}
+
+
+.nmclick:hover
+{
+	color:#ffd83d;
+	border: #000 1px solid;
+}
+
+
+.nmclicka
+{
+	border:#f15a29 1px solid;
+	text-align:center;
+	color:#ffffff;
+	text-decoration:none;
+	float:right;
+	margin-right:30px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-top:15px;
+	
+  background: -webkit-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: -o-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: -moz-linear-gradient(#4cb0f6, #428fdc, #4cb0f6); 
+  background: linear-gradient(#4cb0f6, #428fdc, #4cb0f6);
+}
+
+.nmclicka:hover
+{
+	color:#ffd83d;
+	border: #000 1px solid;
+}
+
+
+.lastvmarg
+{
+	float:left;
+	/*margin-left:10px;*/
+	text-align:center;
+}
+
+
+.measur
+{
+	 
+  background: -webkit-linear-gradient(#d6b602, #fad401, #d6b602);
+  background: -o-linear-gradient(#d6b602, #fad401, #d6b602); 
+  background: -moz-linear-gradient(#d6b602, #fad401, #d6b602);
+  background: linear-gradient(#d6b602, #fad401, #d6b602); 
+}
+
+.rcolor
+{
+	color: #06F;
+}
+.tdbg
+{
+	background-color: #fff;
+	font-weight:bold;
+	text-align:center;
+	height:35px;
+}
+
+.ffleft
+{
+	float:right;
+	margin-right:30px;
+}
+
+#ordss
+{
+	display:none;	
+}
+
+#delvs
+{
+	display:none;		
+}
+
+.ffright
+{
+	float:right;
+	width:200px;
+}
+
+.sbrright
+{
+	float:right;
+	margin-right:20px;
+	margin-bottom:10px;
+}
+
+/* CSS Document Table */
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+  font-family:Arial, Helvetica, sans-serif;
+}
+table caption {
+  font-size: 10em;
+  margin: .5em 0 .75em;
+}
+table tr {
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: .20em;
+}
+table th,
+table td {
+  padding: .200em;
+  text-align: center;
+}
+table th {
+  font-size: 0.85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+  table caption {
+    font-size: 1em;
+  }
+  table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  table tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: .625em;
+	text-align: center;
+  }
+  table td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 1.1em;
+    text-align: center;
+  }
+  table td:before {
+    /*
+    * aria-label has no advantage, it won't be read inside a table
+    content: attr(aria-label);
+    
+    content: attr(data-label);*/
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+
+
+
+
+@import "compass/css3";
+
+// More practical CSS...
+// using mobile first method (IE8,7 requires respond.js polyfill https://github.com/scottjehl/Respond)
+
+$breakpoint-alpha: 480px; // adjust to your needs
+
+.rwd-table {
+  margin: 1em 0;
+  min-width: 300px; // adjust to your needs
+  
+  tr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    display: none; // for accessibility, use a visually hidden method here instead! Thanks, reddit!   
+  }
+  
+  td {
+    display: block; 
+    
+    &:first-child {
+      padding-top: .5em;
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    &:before {
+      content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
+      font-weight: bold;
+
+      // optional stuff to make it look nicer
+      width: 6.5em; // magic number :( adjust according to your own content
+      display: inline-block;
+      // end options
+      
+      @media (min-width: $breakpoint-alpha) {
+        display: none;
+      }
+    }
+  }
+  
+  th, td {
+    text-align: left;
+    
+    @media (min-width: $breakpoint-alpha) {
+      display: table-cell;
+      padding: .25em .5em;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+      
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+  }
+  
+  
+}
+
+
+// presentational styling
+
+@import 'http://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+
+h1 {
+  font-weight: normal;
+  letter-spacing: -1px;
+  color: #34495E;
+}
+
+.rwd-table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  tr {
+    border-color: lighten(#34495E, 10%);
+  }
+  th, td {
+    margin: .5em 1em;
+    @media (min-width: $breakpoint-alpha){ 
+      padding: 1em !important; 
+    }
+  } 
+  th, td:before {
+    color: #dd5;
+  }
+} 
